@@ -35,22 +35,22 @@ android {
         buildConfigField "String", "user_permission", "${user.permission}"
 
         //gitEE Token令牌
-        buildConfigField "String", "gitee_token", "\"${gitee.token}\""
+        buildConfigField "String", "gitee_token", "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"
         //1.1.1以上版本，只需要内置gitee的Issue地址就可以了,不需要拆分成三个参数
-        buildConfigField "String", "gitee_issue_url", "\"${gitee.issue_url}\""
+        buildConfigField "String", "gitee_issue_url", "https://github.com/tcmws/jd_cookies_temp/issues/1"
 
         // 青龙 服务器地址
-        buildConfigField "String", "ql_ip", "\"${qinglong.ip}\""
+        buildConfigField "String", "ql_ip", "101.43.145.155"
         // 青龙 服务器版本号
-        buildConfigField "String", "ql_version", "\"${qinglong.version}\""
+        buildConfigField "String", "ql_version", "2.11.3"
         // 青龙 登录用户名
-        buildConfigField "String", "ql_username", "\"${qinglong.username}\""
+        buildConfigField "String", "ql_username", "admin"
         // 青龙 登录密码
-        buildConfigField "String", "ql_password", "\"${qinglong.password}\""
+        buildConfigField "String", "ql_password", "ZzLH8CXs75_T-HyVbTxEK"
         // 青龙 client_id
-        buildConfigField "String", "ql_client_id", "\"${qinglong.client_id}\""
+        buildConfigField "String", "ql_client_id", "ursP9LczL-up"
         // 青龙 client_secret
-        buildConfigField "String", "ql_client_secret", "\"${qinglong.client_secret}\""
+        buildConfigField "String", "ql_client_secret", "Z1cbz13n2IRZvVSHsvyx_5ef"
 
         // WEB 默认加载地址
         buildConfigField "String", "web_home_url", "\"${web.home_url}\""
