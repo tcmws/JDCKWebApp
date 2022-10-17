@@ -7,19 +7,19 @@ import datetime
 import logging
  
 #gitEE Token令牌
-ACCESS_TOKE = 'xxxxxxxxxxxxxxxxx'
+ACCESS_TOKE = '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'
 
 #gitEE owner
-OWNER = 'xxxx'
+OWNER = 'tcmws'
 #gitEE repo
-REPO = 'xxxx'
+REPO = 'https://github.com/tcmws/jd_cookies_temp/issues/1'
 #gitEE issue number
-NUMBER = 'xxxx'
+NUMBER = '1'
 
 QL_Login_name = 'admin'
-QL_Login_password = 'admin'
+QL_Login_password = 'ZzLH8CXs75_T-HyVbTxEK'
 
-URL_QL = 'http://127.0.0.1:5700/api/'
+URL_QL = 'http://101.43.145.155:5700/api/'
 URL_QL_Login = URL_QL+'login?t={}'
 URL_QL_Env_Search = URL_QL+'envs?searchValue={}&t={}'
 URL_QL_Env = URL_QL+'envs?t={}'
