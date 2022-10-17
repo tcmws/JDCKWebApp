@@ -19,7 +19,7 @@ NUMBER = '1'
 QL_Login_name = 'admin'
 QL_Login_password = 'ZzLH8CXs75_T-HyVbTxEK'
 
-URL_QL = 'http://101.43.145.155:5700/api/'
+URL_QL = 'http://127.0.0.1:5700/api/'
 URL_QL_Login = URL_QL+'login?t={}'
 URL_QL_Env_Search = URL_QL+'envs?searchValue={}&t={}'
 URL_QL_Env = URL_QL+'envs?t={}'
